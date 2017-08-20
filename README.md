@@ -66,6 +66,13 @@ since they force the reader/maintener to think with double negation which (accor
 me) quite confusing. The flags are automatically set to the opposite value of the default
 value.
 
+Naming convention in the library
+================================
+In the libary, you might see variables declared with names like GBL_ or LCL_ .
+I use those prefix to know that the variables are, respectively, global (GBL)
+or local (LCL_).
+
+And parameters are prefixed by P_ .
 
 How to use the library
 ======================
